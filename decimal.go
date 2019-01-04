@@ -50,7 +50,7 @@ var DivisionPrecision = 16
 // unmarshallers (ex: Javascript's) will unmarshal JSON numbers to IEEE 754
 // double-precision floating point numbers, which means you can potentially
 // silently lose precision.
-var MarshalJSONWithoutQuotes = false
+var MarshalJSONWithoutQuotes = true
 
 // Zero constant, to make computations faster.
 var Zero = New(0, 1)
